@@ -21,7 +21,7 @@ jobs:
 
         - name: Build EXE with PyInstaller
           run: |
-            pyinstaller --noconsole --onefile StickType.py
+            pyinstaller --noconsole --onefile StickType/StickType.py
 
         - name: Upload Artifact
           uses: actions/upload-artifact@v4
